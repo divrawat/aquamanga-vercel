@@ -22,16 +22,16 @@ export const FAVICON = `${IMAGES_SUBDOMAIN}/public/favicon.png`;
 
 export const navLinks = [
 
-    // { text: 'Action', href: `${DOMAIN}/categories/action?page=1` },
-    // { text: 'Adventure', href: `${DOMAIN}/categories/adventure?page=1` },
-    // { text: 'Shoujo', href: `${DOMAIN}/categories/shoujo?page=1` },
-    // { text: 'Romance', href: `${DOMAIN}/categories/romance?page=1` },
-    // { text: 'Thriller', href: `${DOMAIN}/categories/drama?page=1` },
-    // { text: 'Fantasy', href: `${DOMAIN}/categories/fantasy?page=1` },
-    // { text: 'Comedy', href: `${DOMAIN}/categories/comedy?page=1` },
-    // { text: 'New Chapters', href: `${DOMAIN}/new-chapters` },
-    // { text: 'New Mangas', href: `${DOMAIN}/new-mangas` },
-    // { text: 'Contact', href: `${DOMAIN}/contact` },
+    { text: 'Action', href: `${DOMAIN}/categories/action?page=1` },
+    { text: 'Adventure', href: `${DOMAIN}/categories/adventure?page=1` },
+    { text: 'Shoujo', href: `${DOMAIN}/categories/shoujo?page=1` },
+    { text: 'Romance', href: `${DOMAIN}/categories/romance?page=1` },
+    { text: 'Thriller', href: `${DOMAIN}/categories/drama?page=1` },
+    { text: 'Fantasy', href: `${DOMAIN}/categories/fantasy?page=1` },
+    { text: 'Comedy', href: `${DOMAIN}/categories/comedy?page=1` },
+    { text: 'New Chapters', href: `${DOMAIN}/new-chapters` },
+    { text: 'New Mangas', href: `${DOMAIN}/new-mangas` },
+    { text: 'Contact', href: `${DOMAIN}/contact` },
 ];
 
 export const FooterLinks = [
