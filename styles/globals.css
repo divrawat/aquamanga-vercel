@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-style: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif !important;
+
+  --dot-bg: rgb(0, 0, 0);
+  --dot-color: rgb(34, 34, 35);
+  --dot-size: 1.2px;
+  --dot-space: 5px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
+    
+
+    /* background-image: radial-gradient(closest-side, rgba(255, 230, 0, 0.21), black); */
+    /* background-color: black; */
+
+}
+
+.swiper-pagination-bullet{
+  background-color: rgb(177, 174, 174) !important;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.allimages{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+
+:root {
+  --npprogress-color: red;
+}
+
+
+/* ------------- NProgress ------------------------------ */
+
+/* Make clicks pass-through */
+#nprogress {
+    pointer-events: none;
+  }
+  
+  #nprogress .bar {
+    background: var(--npprogress-color);
+  
+    position: fixed;
+    z-index: 1031;
+    top: 0px;
+    left: 0;
+  
+    width: 100%;
+    height: 4px;
+  }
+  
+  /* Fancy blur effect */
+  #nprogress .peg {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 10px var(--npprogress-color), 0 0 5px var(--npprogress-color);
+    opacity: 1.0;
+  
+    -webkit-transform: rotate(3deg) translate(0px, -4px);
+        -ms-transform: rotate(3deg) translate(0px, -4px);
+            transform: rotate(3deg) translate(0px, -4px);
+  }
+  
+  /* Remove these to get rid of the spinner */
+  #nprogress .spinner {
+    display: block;
+    position: fixed;
+    z-index: 1031;
+    top: 15px;
+    right: 15px;
+  }
+  
+  #nprogress .spinner-icon {
+    width: 18px;
+    height: 50px;
+    box-sizing: border-box;
+  
+    border: solid 2px transparent;
+    border-top-color: var(--npprogress-color);
+    border-left-color: var(--npprogress-color);
+    border-radius: 50%;
+  
+    -webkit-animation: nprogress-spinner 400ms linear infinite;
+            animation: nprogress-spinner 400ms linear infinite;
+  }
+  
+  .nprogress-custom-parent {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .nprogress-custom-parent #nprogress .spinner,
+  .nprogress-custom-parent #nprogress .bar {
+    position: absolute;
+  }
+  
+  @-webkit-keyframes nprogress-spinner {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  @keyframes nprogress-spinner {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+  /* ------------- NProgress ------------------------------ */
+
+  
+/* ----------------------------------------------ScrollBar----------------------------------------- */
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 12px;
+
+}
+
+::-webkit-scrollbar-track {
+  /* background-color: rgb(184, 184, 184); */
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  /* border: 1px solid white; */
+  background: rgb(51, 51, 51);
+}
+/* ----------------------------------------------ScrollBar----------------------------------------- */
+
+
