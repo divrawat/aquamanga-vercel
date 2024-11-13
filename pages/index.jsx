@@ -192,7 +192,7 @@ export default function Home({ mangas, categories, latestmangachapters }) {
 
 
       <h1 className={`${roboto.className}  text-[white] tracking-wider font-extrabold text-2xl px-3 text-center my-10`}>
-        {`${APP_NAME}: Read Mangas, Manhwas, Manhuas`}
+        {`${APP_NAME}: Read Comics Online`}
       </h1>
 
 

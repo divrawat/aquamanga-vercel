@@ -31,7 +31,7 @@ export const navLinks = [
     { text: 'Comedy', href: `${DOMAIN}/categories/comedy?page=1` },
     { text: 'New Chapters', href: `${DOMAIN}/new-chapters` },
     { text: 'New Mangas', href: `${DOMAIN}/new-mangas` },
-    { text: 'Contact', href: `${DOMAIN}/contact` },
+    // { text: 'Contact', href: `${DOMAIN}/contact` },
 ];
 
 export const FooterLinks = [
